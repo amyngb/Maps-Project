@@ -3,11 +3,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="maps.css">
+  <title>Mappity Maps</title>
+
 </head>
 <body>
+  <h1> Mappity Maps
+  </h1>
+
+  <div id="maps">
+
+  </div>
+<!--Basically build a map with a form that does
+a Google search and places the point on the map
+ https://developers.google.com/maps/documentation/
+ javascript/adding-a-google-map#key-->
 
 
-<script src ="js.js"></script>
 </body>
 </html>
+
+<script src ="maps.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChEGnQ_e46jW6GngRWd5QaU9gvel5LKBY&callback=initMap">
+    </script>

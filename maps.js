@@ -1,19 +1,12 @@
 
-function chunkArrayInGroups(arr, size) {
-  //iterate through array.length
-  var i = 0;
-  var a = 0;
-  var arr2 = [];
-
-  while (i <= arr.length) {
-    //push
-     arr2.push(arr.slice(a, size));
-     i++;
-     a += size;
-  }
- return arr2;
-}
-
-
-
-chunkArrayInGroups(["a", "b", "c", "d"], 2);
+function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('maps'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
