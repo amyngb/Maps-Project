@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/maps.css">
   <title>Mappity Maps</title>
@@ -10,7 +10,7 @@
 <body>
   <h1> Mappity Maps
   </h1>
-
+  <input id="pac-input" class="controls" type="text" placeholder="Search Box">
   <div id="map"></div>
 <!--Basically build a map with a form that does
 a Google search and places the point on the map
@@ -19,8 +19,7 @@ a Google search and places the point on the map
 
 <!-- JS files go at bottom of Body  -->
 <!-- Create Environment File that will house all our configurations  -->
-<!--<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src ="js/env.js"></script>
 <script src ="js/maps.js"></script>
 </body>
